@@ -1,4 +1,4 @@
-# donggeun's blog (2022.01.24 ~ ing)
+# donggeun's blog (2022.01.21 ~ ing)
 
 동근이의 블로그
 <br><br>
@@ -15,10 +15,7 @@
  - [소개](#소개) 
  - [개발 환경](#개발-환경)
  - [사용 기술](#사용-기술)
- - [아키텍처](#시스템-아키텍처) 
- - [E-R 다이어그램](#e-r-다이어그램)
- - [Api 명세서](#-api-명세서)
- - [릴리즈 노트](#-MP-릴리즈-노트)
+ - [릴리즈 노트](#-Blog-릴리즈-노트)
  - [화면 구성](#화면-구성)
 
 <br><br>
@@ -41,17 +38,11 @@
  - DBeaver
 
 ## 사용 기술 
-
 ![EC2](https://img.shields.io/badge/AWS-ec2-FF8C00?style=flat&logo=amazonec2)
 ![RDS](https://img.shields.io/badge/AWS-RDS-FF8C00?style=flat&logo=amazonrds)
-
-![Nest](https://img.shields.io/badge/-nestjs-red)
-![ParseServer](https://img.shields.io/badge/ParseServer-0078d6?style=flat)
-![ParseDashboard](https://img.shields.io/badge/ParseDashboard-0078d6?style=flat)
-
+![Nest](https://img.shields.io/badge/nestjs-%23336791.svg?&style=flat&logo=nestjs&logoColor=red)
 ![React](https://img.shields.io/badge/react-%2361DAFB.svg?&style=flat&logo=react&logoColor=black)
-![BootStrap](https://img.shields.io/badge/BootStrap-purple?style=flat&logo=Bootstrap)
-![Postgre](https://img.shields.io/badge/postgresql-%23336791.svg?&style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%23336791.svg?&style=flat&logo=MongoDB&logoColor=white)
 
 **웹서버**
  - Nginx
@@ -59,18 +50,16 @@
 **백엔드**
  - NVM 
  - Node 16.18.0
- - Express
- - ParseServer & ParseDashboard
+ - Nest
 
 **프론트엔드**
  -  React
- -  Bootstrap
  
 **빌드 툴**
  - Webpack
 
 **데이터베이스**
- - PostgreSQL
+ - MongoDB
 
 **인프라** 
  - AWS EC2
@@ -78,36 +67,30 @@
  - Docker
  - Docker Compose
 
-## 시스템 아키텍처
-![시스템 아키텍처](./images/system.png)
-
-## E-R 다이어그램
-![ERD](./images/erd.png)
-
-
-## 📑 Api 명세서
-### [Api 명세서 보기](./api/index.html)
-
-
-## 🛠 MP 릴리즈 노트
+## 🛠 Blog 릴리즈 노트
 
 <details>
-<summary> 2022-10-31 MP v1.1.0 릴리즈 보기</summary>
+<summary> 2023-01-22 MP v1.1.0 릴리즈 보기</summary>
 <div markdown="1">   
+  <h3>SEO 개선</h3>
   <ul>
-    <li>이메일 인증 제거</li>
-    <li>폰트 변경</li>
-    <li>글쓰기 유효성 검사 강화</li>
+    <li>react-helmet 적용</li>
+    <li>동적 경로 sitemap 등록</li>
+  </ul>
+  <h3>버그 fix</h3>
+  <ul>
+    <li>쿼리스트링 없이 /home으로 접속했을때 꺠지는 이슈 수정</li>
   </ul>
 </div>
 </details>
 <details>
-<summary> 2022-11-05 MP v1.2.0 릴리즈 보기</summary>
+<summary> 2022-01-29 MP v1.2.0 릴리즈 보기</summary>
 <div markdown="1">       
+  <h3>기능 fix</h3>
   <ul>
-    <li>요청 Body 사이즈 기존 5M > 10M로 변경</li>
-    <li>회원가입 여부에 따라 활성화 버튼 변경</li>
-    <li>애드핏 광고 1개 > 4개로 변경</li>
+    <li>쿼리스트링 대신 react-router-dom 활용</li>
+    <li>API 호출했을때 에러 및 예외 메세지가 정확히 오지 않는 부분 수정</li>
+    <li>sitemap, rss 자동 업데이트 Shell Crontab등록</li>
   </ul>
 </div>
 </details>
@@ -118,14 +101,14 @@
 | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | 
 |로그인|회원가입
 
-![전체 추억](./images/page/allmap.png)|![내 추억](./images/page/mymap.png)|
+![About me](./images/page/aboutme.png)|![Home](./images/page/home.png)|
 | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | 
-|전체 추억|내 추억
+|About me|Home
 
-![비회원](./images/page/nonuser.png)|![지도 상세](./images/page/mapdetail.png)|
+![글 상세](./images/page/view.png)|![글 작성](./images/page/write.png)|
 | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | 
-|비회원|지도 상세
+|글 상세|글 작성
 
-![추억 남기기](./images/page/mapwrite.png)|![지도 검색하기](./images/page/mapwrite_01.png)|
+![글 업데이트](./images/page/update.png)|![문의하기](./images/page/contact.png)|
 | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | 
-|추억 남기기|지도 검색하기
+|글 업데이트|문의하기

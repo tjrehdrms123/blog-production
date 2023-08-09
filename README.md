@@ -1,73 +1,22 @@
-# donggeun's blog (2022.01.21 ~ ing)
+# donggeun's blog (2022.01.21 ~ ing) <img src="./images/profile.jpg" align=left width="100" alt="Nest Logo" />
+> 동근이의 블로그입니다.
 
-동근이의 블로그
-<br><br>
-## [블로그 접속하기](https://blog.donggeun.co.kr)
+<br/>
 
-<br><br>
-# Git Repo
-## [Frontend GIT](https://github.com/tjrehdrms123/blog-client)
-## [Backend GIT](https://github.com/tjrehdrms123/blog-server)
-## [Server GIT](https://github.com/tjrehdrms123/blog-cloudserver)
-<br><br>
+# ✨ 서비스 페이지
+[https://blog.donggeun.co.kr](https://blog.donggeun.co.kr)
 
-# 📖 목차 
- - [소개](#소개) 
- - [개발 환경](#개발-환경)
- - [사용 기술](#사용-기술)
- - [릴리즈 노트](#-Blog-릴리즈-노트)
- - [화면 구성](#화면-구성)
-
-<br><br>
-## 📃소개
-**donggeun's blog**는 개인 블로그입니다
 <br>
-노션에 있는 데이터를 개인 블로그로 쓰고 싶어서 만들었습니다
+
+#  🌿 GIT Repo
+## [Backend GIT](https://github.com/tjrehdrms123/blog-server)
+## [Frontend GIT](https://github.com/tjrehdrms123/blog-client)
 
 
-## 개발 환경
+<br/>
 
-![window](https://img.shields.io/badge/windows-%230078D6.svg?&style=flat&logo=windows&logoColor=white")
-![vscode](https://img.shields.io/badge/vscode-blue?style=flat&logo=VisualStudioCode)
-![github](https://img.shields.io/badge/github-606060?style=fat&logo=github)
-![MongoCompass](https://img.shields.io/badge/-MongoCompass-green)
 
- - Window 
- - Visual Studio Code
- - GitHub
- - DBeaver
-
-## 사용 기술 
-![EC2](https://img.shields.io/badge/AWS-ec2-FF8C00?style=flat&logo=amazonec2)
-![RDS](https://img.shields.io/badge/AWS-RDS-FF8C00?style=flat&logo=amazonrds)
-![Nest](https://img.shields.io/badge/nestjs-%23336791.svg?&style=flat&logo=nestjs&logoColor=red)
-![React](https://img.shields.io/badge/react-%2361DAFB.svg?&style=flat&logo=react&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-%23336791.svg?&style=flat&logo=MongoDB&logoColor=white)
-
-**웹서버**
- - Nginx
-
-**백엔드**
- - NVM 
- - Node 16.18.0
- - Nest
-
-**프론트엔드**
- -  React
- 
-**빌드 툴**
- - Webpack
-
-**데이터베이스**
- - MongoDB
-
-**인프라** 
- - AWS EC2
- - AWS RDS
- - Docker
- - Docker Compose
-
-## 🛠 Blog 릴리즈 노트
+## 📖 Blog 릴리즈 노트
 
 <details>
 <summary> 2023-01-22 MP v1.1.0 릴리즈 보기</summary>

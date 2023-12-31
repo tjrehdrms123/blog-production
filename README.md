@@ -33,13 +33,23 @@
 </div>
 </details>
 <details>
-<summary> 2022-01-29 MP v1.2.0 릴리즈 보기</summary>
+<summary> 2023-01-29 MP v1.2.0 릴리즈 보기</summary>
 <div markdown="1">       
   <h3>기능 fix</h3>
   <ul>
     <li>쿼리스트링 대신 react-router-dom 활용</li>
     <li>API 호출했을때 에러 및 예외 메세지가 정확히 오지 않는 부분 수정</li>
     <li>sitemap, rss 자동 업데이트 Shell Crontab등록</li>
+  </ul>
+</div>
+</details>
+<details>
+<summary> 2023~ MP v1.3.0 릴리즈 보기</summary>
+<div markdown="1"> 
+  <ul>
+    <li>포트폴리오, 이력서 및 추가 퍼블 페이지 추가 및 API 연동</li>
+    <li>다크 테마 적용</li>
+    <li>블로그 글 코드 하이라이트 적용</li>
   </ul>
 </div>
 </details>

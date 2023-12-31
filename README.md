@@ -9,8 +9,9 @@
 <br>
 
 #  🌿 GIT Repo
-## [Backend GIT](https://github.com/tjrehdrms123/blog-server)
-## [Frontend GIT](https://github.com/tjrehdrms123/blog-client)
+> 백엔드, 프론트는 비공개로 운영 중 입니다.
+## ~~[Backend GIT](https://github.com/tjrehdrms123/blog-server)~~
+## ~~[Frontend GIT](https://github.com/tjrehdrms123/blog-client)~~
 
 
 <br/>
